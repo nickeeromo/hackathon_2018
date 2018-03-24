@@ -1,7 +1,7 @@
 export class Grs08 {
 
       LEA_No = 600;
-      LEA_Name = "MECKLENBURG COUNTY";
+      LEA_Name = 'MECKLENBURG COUNTY';
       School_No: number;
       School_Name: string;
       Grade_Level: string; // e.g. 9, 10, 11, 12, or "Total"

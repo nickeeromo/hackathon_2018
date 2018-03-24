@@ -6,6 +6,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
   ],
   imports: [
      MatFormFieldModule, MatSelectModule, BrowserAnimationsModule,
-     FormsModule,
+     FormsModule, MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
