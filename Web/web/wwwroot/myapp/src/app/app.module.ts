@@ -1,9 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
@@ -15,7 +14,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
     ScheduleComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, MatFormFieldModule, MatSelectModule
+     MatFormFieldModule, MatSelectModule, BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
