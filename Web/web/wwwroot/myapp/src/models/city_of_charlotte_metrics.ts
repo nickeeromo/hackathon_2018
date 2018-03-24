@@ -1,4 +1,4 @@
-export class {
+export class city_of_charlotte_metrics {
 
        Parcel: string;
        _2017Address: string;
