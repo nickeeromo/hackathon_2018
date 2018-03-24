@@ -1,55 +1,24 @@
+<form class="example-container" (ngSubmit)="submit()" #form="ngForm">
+    <input matInput [(ngModel)]="userInfo.employed" placeholder="Are you employed?" name="employed">
 
+    <input matInput [(ngModel)]="userInfo.workAddress" placeholder="If so, what is your work address?" name="workAddress">
 
-  <form class="example-container">
-      <mat-form-field>
-          <input matInput placeholder="Are you employed?">
-        </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.ableToWork" placeholder="If no, are you able to work?" name="ableToWork">
 
-        <mat-form-field>
-          <input matInput placeholder="If so, what is your work address?">
-        </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.numberOfChildren" placeholder="How many children are in the house hold?" name="numberOfChildren">
 
-        <mat-form-field>
-            <input matInput placeholder="If no, are you able to work?">
-          </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.transportation" placeholder="Do you own a car?" name="transportation">
 
-          <mat-form-field>
-              <input matInput placeholder="How many children are in the house hold?">
-            </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.liveWithSpouse" placeholder="Do you live with a significant other?" name="liveWithSpouse">
 
-            <mat-form-field>
-                <input matInput placeholder="Do you own a car?">
-              </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.spouseCar" placeholder="If so, do they own a car?" name="spouseCar">
 
-              <mat-form-field>
-                  <input matInput placeholder="Do you live with a significant other?">
-                </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.race" placeholder="Optional - What is your race?" name="race">
 
-                <mat-form-field>
-                    <input matInput placeholder="If so, do they own a car?">
-                  </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.annualIncome" placeholder="What is your annual income for your household?" name="annualIncome">
 
-                  <mat-form-field>
-                      <input matInput placeholder="Optional - What is your race?">
-                    </mat-form-field>
+    <input matInput [(ngModel)]="userInfo.medicalConitions" placeholder="Do you have any life-threatening medical conditions?" name="medicalConitions">
 
-                    <mat-form-field>
-                        <input matInput placeholder="What is your annual income for your household?">
-                      </mat-form-field>
+  <button type="submit" mat-raised-button>Submit</button>
 
-                      <mat-form-field>
-                          <input matInput placeholder="Do you have any life-threatening medical conditions?">
-                        </mat-form-field>
-
-
-
-
-
-        <mat-form-field>
-          <mat-select placeholder="Select">
-            <mat-option value="option">Option</mat-option>
-          </mat-select>
-        </mat-form-field>
-  </form>
-
-
+</form>

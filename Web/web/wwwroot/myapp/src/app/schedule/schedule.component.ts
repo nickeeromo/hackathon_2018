@@ -1,3 +1,4 @@
+import { UserInfo } from './../../models/userInfo';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScheduleComponent implements OnInit {
 
+  userInfo: UserInfo = {
+    employed: false,
+    workAddress: '',
+    ableToWork: false,
+    numberOfChildren: 0,
+    transportation: false,
+    liveWithSpouse: false,
+    spouseCar: false,
+    race: '',
+    annualIncome: 0,
+    medicalConitions: false
+  };
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  submit() {
+
+  }
 }
