@@ -1,0 +1,24 @@
+<form class="example-container" (ngSubmit)="submit()" #form="ngForm">
+    <input matInput [(ngModel)]="userInfo.employed" placeholder="Are you employed?" name="employed">
+
+    <input matInput [(ngModel)]="userInfo.workAddress" placeholder="If so, what is your work address?" name="workAddress">
+
+    <input matInput [(ngModel)]="userInfo.ableToWork" placeholder="If no, are you able to work?" name="ableToWork">
+
+    <input matInput [(ngModel)]="userInfo.numberOfChildren" placeholder="How many children are in the house hold?" name="numberOfChildren">
+
+    <input matInput [(ngModel)]="userInfo.transportation" placeholder="Do you own a car?" name="transportation">
+
+    <input matInput [(ngModel)]="userInfo.liveWithSpouse" placeholder="Do you live with a significant other?" name="liveWithSpouse">
+
+    <input matInput [(ngModel)]="userInfo.spouseCar" placeholder="If so, do they own a car?" name="spouseCar">
+
+    <input matInput [(ngModel)]="userInfo.race" placeholder="Optional - What is your race?" name="race">
+
+    <input matInput [(ngModel)]="userInfo.annualIncome" placeholder="What is your annual income for your household?" name="annualIncome">
+
+    <input matInput [(ngModel)]="userInfo.medicalConitions" placeholder="Do you have any life-threatening medical conditions?" name="medicalConitions">
+
+  <button type="submit" mat-raised-button>Submit</button>
+
+</form>

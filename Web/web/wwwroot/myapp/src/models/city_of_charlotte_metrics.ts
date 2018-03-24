@@ -1,9 +1,9 @@
-export class city_of_charlotte_metrics {
+export class CityOfCharlotteMetrics {
 
        Parcel: string;
        _2017Address: string;
        CITY: string;
-       STATE = "NC";
+       STATE = 'NC';
        ZIP: string;
        _2017TotalSubUnits: string;
        _2017Source: string; // Only a few choices.
